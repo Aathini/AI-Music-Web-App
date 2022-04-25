@@ -1,0 +1,21 @@
+span {
+    font-size: 15px;
+}
+#span2 {
+    font-size: 13px;
+}
+canvas {
+    border: 5px solid black;
+    border-radius: 20px; 
+    margin-top: 150px;
+}
+#Heading {
+    background-color:rgb(216, 255, 255);
+    padding: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+body {
+    background-image: url("th.jpg");
+    background-size: cover;
+}
