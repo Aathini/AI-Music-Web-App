@@ -47,6 +47,19 @@ function draw() {
         song.play(AmongUs.mp3.mp3);
         song = console.log("Among Us theme song is playing");
     } 
+    statsong = song_variable.isPlaying(Enemy.mp3.mp3);
+    
+    fill ("red");
+    stroke("black");
+    if(scoreLW > 0.2) {
+    circle(rightWristX, rightWristY, 20);
+    song_variable.stop(AmongUs.mp3.mp3);
+}
+    if(Enemy.mp3.mp3 = false) {
+        song.play(Enemy.mp3.mp3);
+        song = console.log("Enemy theme song is playing");
+    } 
+
 
     flw = Number(leftWristY);
     deci = floor(flw);
